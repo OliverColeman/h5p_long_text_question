@@ -1,0 +1,42 @@
+{
+  "title": "Long Text Question",
+  "description": "Ask a question to which users may write a long text answer. Optionally include a rubric.",
+  "machineName": "LongTextQuestion",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "license": "MIT",
+  "author": "Education Research Solutions Pty Ltd Australia",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 6
+  },
+  "preloadedCss": [
+    {
+      "path": "css/longtextquestion.css"
+    }
+  ],
+  "preloadedJs": [
+    {
+      "path": "js/longtextquestion.js"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.Question",
+      "majorVersion": 1,
+      "minorVersion": 2
+    },
+    {
+      "machineName": "H5P.JoubelUI",
+      "majorVersion": 1,
+      "minorVersion": 2
+    }
+  ]
+}

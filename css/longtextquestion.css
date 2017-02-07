@@ -1,0 +1,22 @@
+.h5p-long-text-question textarea.user-input {
+  width: 95%;
+  margin: 1em auto;
+}
+.h5p-long-text-question .autosave-status {
+  text-align: right;
+  font-style: italic;
+}
+.h5p-long-text-question .submit-message {
+  font-weight: bold;
+  margin:1em;
+}
+.h5p-long-text-question .rubric {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.h5p-long-text-question .rubric .weight {
+  float: right;
+  margin: 0 0 1em 1em;
+  font-weight: bold;
+  clear: right;
+}
